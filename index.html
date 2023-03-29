@@ -11,7 +11,7 @@
 
     <div class="parentDiv">
         <div class="inputDiv">
-            <input type="text" placeholder="Enter Number..." id="number">
+            <input disabled type="text" placeholder="Enter Number..." id="input">
         </div>
         <div class="bodyDiv">
             <table border="1">
@@ -41,8 +41,8 @@
                 </tr>
                 <tr>
                     <td  onclick="setNumber(0)">0</td>
-                    <td >C</td>
-                    <td >AC</td>
+                    <td onclick="clear()">C</td>
+                    <td onclick="allclear()">AC</td>
                 </tr>
             </table>
         </div>

@@ -8,7 +8,7 @@
     width: 20%;
     height: 300px;
     margin: 50px auto;
-    border: 1px solid red;
+    border-radius: 10px;
     text-align: center;
     color: white;
     background-color: #212123;
@@ -16,19 +16,22 @@
 
 .inputDiv input {
     background-color: #212123;
-    width: 100%;
-    height: 60px;
-    border: none;
+    border: 3px solid aqua;
+    width: 90%;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 50px;
+    
     color: white;
     padding-left: 10px;
 }
 .inputDiv input:hover{
     outline: none;
-    border: none;
+    border: 3px solid aqua;
 }
 .inputDiv input:focus{
     outline: none;
-    border: none;
+    border: 3px solid aqua;
 }
 
 
@@ -39,9 +42,16 @@
     border: none;
     outline: none;
 }
+
 .bodyDiv table td {
+    border: 1px dashed aqua;
+    
     background-color: #1E2435;
     width: 30px;
+    height: 30px;
     border-radius: 3px;
 }
 
+.bodyDiv table tr{
+    margin:  0px;
+}
